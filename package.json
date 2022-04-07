@@ -1,0 +1,32 @@
+{
+  "name": "weather-api-plus",
+  "version": "1.0.1",
+  "description": "a Weather API Service Module Package. Check: https://weather.nicat-dcw.xyz",
+  "main": "main.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicat-dcw/resystudios-weather"
+  },
+
+  "keywords": [
+    "Weather",
+    "Info.",
+    "WeatherInfo",
+    "Nicatdcw",
+    "Best"
+  ],
+  "publishConfig": {
+   "@Nicat-dcw:registry": "https://npm.pkg.github.com"
+ },
+  "author": "Nicat.dcw",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.26.1"
+  }
+}
